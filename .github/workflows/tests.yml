@@ -1,0 +1,28 @@
+name: Run unit tests
+
+on:
+    push:
+        branches: [main]
+    pull_request:
+        branches: [main]
+    workflow_dispatch:
+
+permissions:
+    contents: read
+    pull-requests: read
+    issues: write
+    checks: write
+
+jobs:
+    run-unit-tests:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Check out Git repository
+              uses: actions/checkout@v3
+              timeout-minutes: 6
+            - name: Report test results (Sanity Checks)
+              uses: mikepenz/action-junit-report@v4
+              if: success() || failure()
+              with:
+                  report_paths: ".tmp/TEST-swiftui.sanity.xml"
+                  check_name: "Main Test Report"

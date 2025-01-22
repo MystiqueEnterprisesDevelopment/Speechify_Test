@@ -4,7 +4,7 @@ import SwiftUI
 struct SwiftUIChallengeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(viewModel: Model())
+            ContentView(viewModel: CountdownScreenViewModel())
         }
     }
 }

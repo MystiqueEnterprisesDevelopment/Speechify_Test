@@ -11,6 +11,10 @@
 		0C5A7CB127A9582800BA736E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A7CA027A9582600BA736E /* ContentView.swift */; };
 		0C5A7CB327A9582800BA736E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C5A7CA127A9582800BA736E /* Assets.xcassets */; };
 		0C5A7CBE27A9865200BA736E /* PaymentTypesRepositoryImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5A7CBD27A9865200BA736E /* PaymentTypesRepositoryImplementation.swift */; };
+		D861C0362D4152E700E56FDF /* PaymentSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D861C0352D4152E700E56FDF /* PaymentSelectorView.swift */; };
+		D861C0382D4152F200E56FDF /* PaymentSelectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D861C0372D4152F200E56FDF /* PaymentSelectorViewModel.swift */; };
+		D861C03A2D41533E00E56FDF /* FinishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D861C0392D41533E00E56FDF /* FinishView.swift */; };
+		D861C03C2D41556800E56FDF /* CountdownScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D861C03B2D41556800E56FDF /* CountdownScreenViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		0C5A7CA127A9582800BA736E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C5A7CA627A9582800BA736E /* SwiftUIChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C5A7CBD27A9865200BA736E /* PaymentTypesRepositoryImplementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTypesRepositoryImplementation.swift; sourceTree = "<group>"; };
+		D861C0352D4152E700E56FDF /* PaymentSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentSelectorView.swift; sourceTree = "<group>"; };
+		D861C0372D4152F200E56FDF /* PaymentSelectorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentSelectorViewModel.swift; sourceTree = "<group>"; };
+		D861C0392D41533E00E56FDF /* FinishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishView.swift; sourceTree = "<group>"; };
+		D861C03B2D41556800E56FDF /* CountdownScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownScreenViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,10 @@
 				0C5A7CBD27A9865200BA736E /* PaymentTypesRepositoryImplementation.swift */,
 				0C5A7C9F27A9582600BA736E /* SwiftUIChallengeApp.swift */,
 				0C5A7CA127A9582800BA736E /* Assets.xcassets */,
+				D861C0352D4152E700E56FDF /* PaymentSelectorView.swift */,
+				D861C0372D4152F200E56FDF /* PaymentSelectorViewModel.swift */,
+				D861C0392D41533E00E56FDF /* FinishView.swift */,
+				D861C03B2D41556800E56FDF /* CountdownScreenViewModel.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -130,7 +142,11 @@
 			files = (
 				0C5A7CB127A9582800BA736E /* ContentView.swift in Sources */,
 				0C5A7CBE27A9865200BA736E /* PaymentTypesRepositoryImplementation.swift in Sources */,
+				D861C0382D4152F200E56FDF /* PaymentSelectorViewModel.swift in Sources */,
+				D861C0362D4152E700E56FDF /* PaymentSelectorView.swift in Sources */,
+				D861C03C2D41556800E56FDF /* CountdownScreenViewModel.swift in Sources */,
 				0C5A7CAF27A9582800BA736E /* SwiftUIChallengeApp.swift in Sources */,
+				D861C03A2D41533E00E56FDF /* FinishView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
